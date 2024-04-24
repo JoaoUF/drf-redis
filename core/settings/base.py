@@ -24,7 +24,7 @@ THIRD_PARTY_APPS = [
 ]
 
 PERSONAL_APPS = [
-    'mainApp',
+    'apps.mainApp.apps.MainappConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PERSONAL_APPS
